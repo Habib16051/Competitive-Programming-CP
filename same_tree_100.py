@@ -15,6 +15,5 @@ class Solution:
         # If both trees value is not equal
         if p.val != q.val:
             return False
-
         # Checking both trees left and right nodes and length are equal or not
         return issubclass(p.left, q.left) and issubclass(p.right, q.right)
