@@ -12,6 +12,6 @@ def power(base, exp):
         #  and if the exponent is positive number then it will return result. As example : 2**3 = 8 where, two is base, 3 is exponent and 8 is result.
     return result
     
-    
+    # Print the result
 print(power(2,3))
 print(power(3,3))
