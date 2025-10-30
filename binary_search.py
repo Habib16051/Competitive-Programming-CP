@@ -28,4 +28,12 @@ if __name__ == "__main__":
         print(f"The target value is found {result}")
     else:
         print(f"Target value is not found at {result}")
+
+# Time Complexity:
+| Case             | Description                                                 | Time Complexity |
+| ---------------- | ----------------------------------------------------------- | --------------- |
+| **Best Case**    | Element found at the first middle check                     | **O(1)**        |
+| **Average Case** | Element found somewhere in middle after log₂(n) divisions   | **O(log n)**    |
+| **Worst Case**   | Element not found, algorithm checks until subarray size = 1 | **O(log n)**    |
+
         
